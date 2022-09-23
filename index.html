@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <img id="toggle" src="Toggle on.svg" alt="light-mode-on">
+        <input onclick="empty()" id="big-text" type="text" id="fname" name="fname" text-decoration="none"><br><br>
+        
+        <div class="playground">
+            <div class="topbar"></div>
+            <div class="sidebar"></div>
+            <div class="keypad">
+                <button id="one" onclick="one()">1</button>
+                <button id="two" onclick="two()">2</button>
+                <button id="three" onclick="three()">3</button>
+                <button id="four" onclick="four()">4</button>
+                <button id="five" onclick="five()">5</button>
+                <button id="six" onclick="six()">6</button>
+                <button id="seven" onclick="seven()">7</button>
+                <button id="eight" onclick="eight()">8</button>
+                <button id="nine" onclick="nine()">9</button>
+                <button id="more" onclick="more()">...</button>
+                <button id="zero" onclick="zero()">0</button>
+                <button id="dot" onclick="dot()">.</button>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
