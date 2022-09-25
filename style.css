@@ -22,6 +22,7 @@ button {
     text-shadow: 0rem 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
     background: #EBCC71;
     font-family: "Inter";
+    cursor: pointer;
     font-weight:bold;
     font-size: 1.7rem;
     font-style: normal;
@@ -33,9 +34,7 @@ button {
     
 }
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+button:active {
   transform: translateY(4px);
 }
 
