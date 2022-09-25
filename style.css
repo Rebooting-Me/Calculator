@@ -30,6 +30,13 @@ button {
     margin: 0.4rem;
     width: 25%;
     height: 3rem;
+    
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .keypad img {
